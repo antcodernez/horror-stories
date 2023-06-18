@@ -1,0 +1,30 @@
+const messages = [
+    "Un hombre pasó el día explorando un bosque en el que nunca había estado antes. Estaba anocheciendo y su sentido de orientación ya no funcionaba bien, mientras seguía adentrándose más y más en el bosque. Tras horas de andar vagando sin rumbo fijo y con la noche encima de él, encontró una cabaña entre varios árboles. Se dirigió a la cabaña para ver si alguien podía ayudarlo, golpeó la puerta pero no hubo respuesta, estaba abierta así que decidió entrar. No había mucho adentro, solamente una cama, y sientiendose cansado pensó que lo mejor sería dormir y si alguien venía le explicaría su historia. Mientras intentaba dormir, notó muchas pinturas extrañas en el interior de la cabaña de rostros deformados con ojos rojos y todos parecían estar mirándole. Sintiéndose incomodo trató de ignorarlos, cerró los ojos y se durmió. En la mañana el aventurero despertó aterrorizado al darse cuenta que no había pinturas en la cabaña, solo ventanas.",
+    
+    "Es de noche, estas en tu habitación y tu madre te grita desde el piso de abajo para que bajes, cuando estas por bajar las escaleras escuchas la voz de tu madre, que proviene de su habitación diciendo: !no bajes, yo también lo escuche!",
+
+    "Un hombre llamado Joseph Blackwell llegó a Nueva York en un viaje de negocios. Se hospedó en la gran casa que unos amigos poseían en las afueras de la ciudad. Esa noche pasaron un buen rato conversando y rememorando viejos tiempos. Pero cuando Blackwell fue a la cama, comenzó a dar vueltas y no era capaz de dormir.En un momento de la noche, oyó un coche llegar a la entrada de la casa. Se acercó a la ventana para ver quién podía arribar a una hora tan tardía. Bajo la luz de la luna vio un coche fúnebre de color negro lleno de gente. El conductor alzó la mirada hacia él. Cuando Blackwell vio su extraño y espantoso rostro, se estremeció. El conductor le dijo: “Hay sitio para uno más”. Entonces el conductor esperó uno o dos minutos, y se retiró. Por la mañana, Blackwell les contó a sus amigos lo que había pasado. “Estabas soñando”, dijeron ellos. “Eso debe haber sido”, repuso él, “pero no parecía un sueño”. Después del desayuno se marchó a la ciudad. Pasó el día en las oficinas de uno de los nuevos y altos edificios de la urbe. A última hora de la tarde, él estaba esperando un ascensor que lo llevara de vuelta a la calle. Pero cuando se detuvo en su piso, este se encontraba muy lleno. Uno de los pasajeros lo miró y le dijo: “Hay sitio para uno más”. Se trataba del conductor del coche fúnebre. “No, gracias”, dijo Blackwell. “Esperaré al siguiente”.Las puertas se cerraron y el ascensor empezó a bajar. Se oyeron voces y gritos, y un gran estruendo. El ascensor se había desplomado contra el fondo. Todas las personas que habían a bordo murieron.",
+    "Empecé a arropar a mi hijo para dormir cuando me dijo, “Papi, revisa que no halla monstruos bajo mi cama”, yo por seguirle el juego me asomé, y lo vi, a él, otro el, debajo de la cama temblando y murmurando “Papi, hay alguien en mi cama",
+    "Mi hija no deja de llorar y gritar en su habitación a la mitad de la noche. Visito su tumba todos los días para pedirle que pare, pero nada ayuda.",
+    "Después de un duro día de trabajo, llegue a casa y vi a mi esposa en la silla mecedora con nuestro hijo en sus brazos. No sé qué fue lo que me asusto más, verlos ahí muertos, o saber que alguien entro a mi casa para colocarlos ahí.",
+    "“No puedo dormir”, dijo mi hija mientras se metía en la cama conmigo. Yo aterrado, podía sentirla a mi lado, vistiendo la misma ropa con la que la enterramos.",
+    "Me desperté a medianoche, una cara sonriente estaba en mi ventana. Vivo en el piso 14.",
+    "Hay una foto en mi teléfono de mí durmiendo. Vivo solo.",
+    "Mi esposa me despertó a media noche diciendo que había un ladrón en la casa. Fue asesinada por un ladrón en la casa hace 2 años.",
+    "Al llegar a mi casa listo para pasar la noche solo viendo películas, al querer prender la luz, sentí una mano sobre el apagador.",
+    "No hay nada como la risa de un bebe. Excepto si es la una de la mañana y vives solo.",
+    "Necesitaba correr rápidamente un procedimiento en SQL para actualizar un registro de una tabla en el trabajo. Después de correr el procedimiento, para mi horror, me arrojó el mensaje “2,378,231 rows affected”.",
+    "El último hombre sobre la Tierra estaba solo en una habitación. Sonó una llamada a la puerta…",
+    "La niña estaba dormida con su mano colgando, como de costumbre, y su perro debajo de la cama lamia su mano como de costumbre. Un ruido la despertó, era un goteo continuo, pero no pudo identificar de donde venía, así que volvió a dormir y su perro siguió lamiéndole la mano. Otro ruido la despertó, venia del armario, ahora el goteo era más claro conforme se acercaba, al abrir la puerta, pudo ver a su perro colgado y degollado goteando sangre, y en la pared escrito con la misma sangre “Los humanos también sabemos lamer, ¿sabes?”",
+    "Todos los días la veía por la ventana del último piso en el edificio de enfrente. Me saludó un par de veces e hice lo mismo. Un día me animé a verla de cerca y le pregunté al portero si podía subir al último piso. Me dijo que nadie vivía ahí desde hace tres meses.",
+    "Desperté en mitad de la noche porque oí un ruido extraño. Pasé por la cocina, encontré las luces encendidas y me vi a mí mismo comiendo en la mesa. Al escuchar mis pasos, se asustó y tomó un cuchillo. Me siento muy mal por matarlo, creo que él era el original.",
+    "Estaba escribiendo hasta muy tarde,  golpeteando las teclas una y otra vez. Cuando terminé, apagué la computadora y me metí a la cama, pero volví a escuchar el teclado. Aterrado, fui a ver qué estaba pasando. El monitor estaba prendido y pude ver un archivo que decía: “No te des la vuelta, está detrás de ti”.",
+    "Gracias a todos los brillantes escritores por estas historias :D"
+  ];
+
+  const horrorStory = () => {
+    const message = messages[Math.floor(Math.random() * messages.length)];
+    console.log(`\x1b[35m${message}\x1b[0m`)
+  }
+
+  module.exports = {horrorStory};
