@@ -14,6 +14,4 @@ Sometimes programming is stressful, and when you want to drop everything, a good
 `$ tell-me`
 
 #Contributing
-If someone wants to add or improve something, I invite you to collaborate 👉
-
-######[Here baby ]( https://github.com/antcodernez/horror-stories)
+If someone wants to add or improve something, I invite you to collaborate 👉 [Here baby ]( https://github.com/antcodernez/horror-stories)
