@@ -10,11 +10,14 @@
   "author": "Jesús Antonio Estrada Jiménez  <antoniodeveloper28@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url":"https://github.com/antcodernez/horror-stories/issues"
+    "url": "https://github.com/antcodernez/horror-stories/issues"
   },
   "homepage": "https://github.com/antcodernez/horror-stories",
-  "bin":{
-      "tell-me": "./bin/global.js"
-    },
-    "preferGlobal": true
+  "bin": {
+    "tell-me": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "horror-stories": "^1.0.0"
+  }
 }
